@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+.pytest_cache/
+.hypothesis/
+.ruff_cache/
+
+.venv/
+venv/
+
+# benchmark artifacts
+results/
+*.ncu-rep
+*.nsys-rep
+
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Additional tooling and build artifacts
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyright/
+*.o
+*.obj
+*.a
+*.so.*
+compile_commands.json
+
+# Local model assets
+/models/
+/checkpoints/
